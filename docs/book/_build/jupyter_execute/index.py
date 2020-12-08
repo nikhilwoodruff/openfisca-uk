@@ -4,7 +4,7 @@ This book contains an introduction to using OpenFisca-UK to model UK taxes and b
 
 ## Short demo
 
-Calculating, for example, the average National Insurance liability by region can be done with the following code:
+Calculating, for example, the average (employee-side) National Insurance liability by region can be done with the following code:
 
 from openfisca_uk import PopulationSim # shortcut to FRS-populated simulations
 from openfisca_uk.variables.household.attributes import Region
@@ -24,3 +24,14 @@ df["National Insurance"] = df["National Insurance"].apply(gbp)
 df["National Insurance per capita"] = df["National Insurance per capita"].apply(gbp)
 df.sort_values(by="National Insurance per capita")
 
+
+
+
+```{toctree}
+:hidden:
+:titlesonly:
+
+
+Individuals
+Populations
+```
