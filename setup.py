@@ -30,7 +30,7 @@ setup(
         "numpy==1.17.5",
         "pyyaml==5.3.1",
         "pytest==5.4.3",
-        "OpenFisca-Core @ git+https://github.com/nikhilwoodruff/openfisca-core",
+        "OpenFisca-Core",
     ],
     extras_require={
         "dev": [
