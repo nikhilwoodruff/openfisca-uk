@@ -25,7 +25,7 @@ class CountryTaxBenefitSystem(TaxBenefitSystem):
 
         # We define which variable, parameter and simulation example will be used in the OpenAPI specification
         self.open_api_config = {
-            "variable_example": "JSA",
-            "parameter_example": "taxes.income_tax.income_tax",
+            "variable_example": "JSA_income",
+            "parameter_example": "taxes.income_tax.rates.uk",
             "simulation_example": None,
         }
